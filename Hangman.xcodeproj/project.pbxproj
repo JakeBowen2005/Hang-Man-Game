@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8732ECC32CD12C920043DAFA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8732ECC22CD12C920043DAFA /* main.cpp */; };
+		8732ECCB2CD12CDD0043DAFA /* hang_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8732ECC92CD12CDD0043DAFA /* hang_functions.cpp */; };
+		8732ECCD2CD4795E0043DAFA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8732ECCC2CD4795E0043DAFA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		8732ECBF2CD12C920043DAFA /* Hangman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hangman; sourceTree = BUILT_PRODUCTS_DIR; };
-		8732ECC22CD12C920043DAFA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8732ECC92CD12CDD0043DAFA /* hang_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hang_functions.cpp; sourceTree = "<group>"; };
+		8732ECCA2CD12CDD0043DAFA /* hang_functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hang_functions.hpp; sourceTree = "<group>"; };
+		8732ECCC2CD4795E0043DAFA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		8732ECC12CD12C920043DAFA /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
-				8732ECC22CD12C920043DAFA /* main.cpp */,
+				8732ECCC2CD4795E0043DAFA /* main.cpp */,
+				8732ECC92CD12CDD0043DAFA /* hang_functions.cpp */,
+				8732ECCA2CD12CDD0043DAFA /* hang_functions.hpp */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8732ECC32CD12C920043DAFA /* main.cpp in Sources */,
+				8732ECCD2CD4795E0043DAFA /* main.cpp in Sources */,
+				8732ECCB2CD12CDD0043DAFA /* hang_functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
